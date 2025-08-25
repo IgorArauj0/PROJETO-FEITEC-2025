@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador de Consumo — Sala</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Simulador de Consumo — Sala</h1>
+    <div class="tariff">
+      <label for="tarifa" title="Tarifa em R$/kWh">Tarifa (R$/kWh)</label>
+      <input id="tarifa" type="number" step="0.000001" min="0" value="0.636240" aria-describedby="tarifaHelp">
+      <small id="tarifaHelp">Edite se necessário (inclui bandeiras/impostos conforme seu cenário).</small>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls">
+    <div class="add">
+      <label for="catalogo">Adicionar aparelho</label>
+      <select id="catalogo"></select>
+      <button id="btnAdd">Adicionar</button>
+      <button id="btnAddCustom" class="ghost">Adicionar personalizado</button>
+    </div>
+    <div class="actions">
+      <button id="btnReset" class="danger">Reiniciar</button>
+      <button id="btnExport">Exportar CSV</button>
+      <button id="btnPrint">Imprimir</button>
+      <button id="btnTour" class="ghost">Tour</button>
+    </div>
+  </section>
+
+  <section aria-live="polite">
+    <table id="tabela" class="grid" aria-describedby="tableHelp">
+      <thead>
+        <tr>
+          <th scope="col">Remover</th>
+          <th scope="col">Quantidade</th>
+          <th scope="col">Descrição</th>
+          <th scope="col">Uso diário</th>
+          <th scope="col">Potência (W)</th>
+          <th scope="col">kWh/mês</th>
+          <th scope="col">Custo/mês (R$)</th>
+        </tr>
+      </thead>
+      <tbody id="linhas">
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="5" scope="row">Totais</th>
+          <td id="totalKwh">0,000</td>
+          <td id="totalCusto">R$ 0,00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <small id="tableHelp">Dica: informe as horas e minutos que o aparelho fica ligado por dia. O consumo mensal assume 30 dias.</small>
+  </section>
+</main>
+
+<dialog id="modalCustom">
+  <form method="dialog" id="customForm">
+    <h3>Novo aparelho</h3>
+    <label>Descrição
+      <input type="text" id="customDesc" placeholder="Ex.: Abajur" required>
+    </label>
+    <label>Potência (W)
+      <input type="number" id="customW" min="1" step="1" placeholder="Ex.: 9" required>
+    </label>
+    <label>Uso diário — horas
+      <input type="number" id="customH" min="0" step="1" value="1" required>
+    </label>
+    <label>Uso diário — minutos
+      <input type="number" id="customM" min="0" max="59" step="1" value="0" required>
+    </label>
+    <menu>
+      <button value="cancel">Cancelar</button>
+      <button id="customSave" value="default">Adicionar</button>
+    </menu>
+  </form>
+</dialog>
+
+<footer>
+  <div class="wrap">
+    <p>Projeto acadêmico — Feira Tecnológica. Este simulador fornece estimativas e não substitui a fatura oficial.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

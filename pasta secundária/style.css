@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif
+}
+
+header {
+    background: #0f6;
+    background: linear-gradient(90deg, #0ba, #0d6);
+    color: #fff;
+    padding: 18px 0;
+    margin: 0 0 18px 0
+}
+
+header .wrap,
+main.wrap,
+footer .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0 0 8px 0
+}
+
+header .tariff {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+header .tariff label {
+    font-weight: 600
+}
+
+header .tariff input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    width: 160px
+}
+
+small {
+    opacity: .8
+}
+
+section.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 12px
+}
+
+.add {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap
+}
+
+button {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer
+}
+
+button:hover {
+    filter: brightness(.97)
+}
+
+button.danger {
+    border-color: #d33;
+    background: #ffecec
+}
+
+button.ghost {
+    background: black;
+    border-color: #fff;
+    color: #fff
+}
+
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .06)
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    text-align: left
+}
+
+thead th {
+    background: #f6f8fa;
+    font-size: .92rem
+}
+
+tfoot th,
+tfoot td {
+    background: #f6f8fa;
+    font-weight: 700
+}
+
+td input[type=number],
+td input[type=text] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px
+}
+
+td .time {
+    display: flex;
+    gap: 6px;
+    align-items: center
+}
+
+td .time input {
+    width: 80px
+}
+
+td .remove {
+    display: flex;
+    justify-content: center
+}
+
+td .remove button {
+    border-color: #f33;
+    background: #fff0f0
+}
+
+td .remove button:hover {
+    background: #ffe5e5
+}
+
+@media (max-width:760px) {
+    thead {
+        display: none
+    }
+
+    tr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        border-bottom: 1px solid #eee;
+        padding: 8px
+    }
+
+    td,
+    th {
+        border: none
+    }
+
+    td[data-label]:before {
+        content: attr(data-label);
+        display: block;
+        font-size: .8rem;
+        color: #666;
+        margin-bottom: 4px
+    }
+
+    tfoot tr {
+        display: flex;
+        flex-direction: column;
+        gap: 6px
+    }
+}
+
+dialog {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .25);
+    padding: 16px;
+    max-width: 420px;
+    width: 90%
+}
+
+dialog form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+dialog input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px
+}
+
+dialog menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin: 0;
+    padding: 0
+}
+
+footer {
+    padding: 18px 0
+}
