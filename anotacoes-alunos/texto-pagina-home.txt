@@ -1,0 +1,123 @@
+1. Cabeçalho:
+
+Título: "ECO VISION"
+
+Subtítulo: "Transforme o consumo de energia em economia"
+
+Frase de introdução: "Calcule e acompanhe o consumo de energia e água dos seus aparelhos de forma simples, rápida e eficaz."
+
+---------------------------------------------------
+
+2. Seção de Introdução ("Olá, me chamo Seu Nome"):
+
+Texto:
+
+"Olá! Eu sou [Seu Nome], e o meu objetivo é ajudar você a calcular e controlar o consumo de energia e água de seus aparelhos. Com isso, você pode reduzir custos e adotar hábitos mais sustentáveis."
+
+Alternativa: "Bem-vindo ao Eco Vision! Aqui, você pode monitorar o consumo de seus aparelhos e otimizar sua utilização para economizar energia e água."
+
+---------------------------------------------------
+
+3. Seção de Serviços:
+
+Preencha as áreas de "Lorem Ipsum" com descrições reais e úteis de cada serviço. Aqui estão algumas sugestões para os tipos de serviços que você pode oferecer:
+
+Serviço 1: Cálculo de Consumo de Energia
+
+"Calcule o consumo de energia de seus aparelhos, com base no tempo de uso e na potência de cada um."
+
+Serviço 2: Acompanhamento de Custos
+
+"Acompanhe os custos mensais de cada aparelho e descubra como reduzir sua fatura."
+
+Serviço 3: Análise de Eficiência
+
+"Receba uma análise detalhada sobre a eficiência energética dos aparelhos e sugestões para otimizar seu consumo."
+
+Serviço 4: Consultoria Sustentável
+
+"Saiba como adotar soluções mais ecológicas e sustentáveis no uso de seus aparelhos."
+
+Serviço 5: Comparativo de Consumo
+
+"Compare o consumo de diferentes aparelhos e identifique quais são os maiores responsáveis pelos seus gastos."
+
+Serviço 6: Relatórios Personalizados
+
+"Gere relatórios detalhados sobre o consumo de energia e água em sua casa ou empresa, com dicas de como reduzir os custos."
+
+---------------------------------------------------
+
+4. Seção de Economia, Água e Energia:
+
+Texto Explicativo:
+
+Economia: "Aproveite ao máximo seus aparelhos, evitando desperdícios e aprendendo como utilizá-los de forma eficiente."
+
+Água: "Com a nossa plataforma, você também pode calcular o consumo de água dos seus aparelhos e adotar práticas mais eficientes."
+
+Energia: "Saiba quanto sua conta de energia pode cair ao fazer ajustes no uso diário dos seus dispositivos."
+
+---------------------------------------------------
+
+5. Portfólio de Clientes:
+
+Cliente 1:
+
+Imagem: Uma foto ou gráfico de consumo.
+
+Descrição: "Cliente: [Nome do Cliente] - Após utilizar nosso cálculo de consumo, ele conseguiu reduzir sua conta de energia em 20%."
+
+Cliente 2:
+
+Imagem: Foto de um ambiente (casa, escritório) com foco nos aparelhos.
+
+Descrição: "Cliente: [Nome do Cliente] - Identificamos que seu maior gasto estava no ar-condicionado. Com nossas dicas, ele conseguiu economizar até 15%."
+
+Cliente 3:
+
+Imagem: Gráfico de comparação antes e depois de usar a ferramenta.
+
+Descrição: "Cliente: [Nome do Cliente] - Usou nossa ferramenta para calcular e otimizar o uso de seus eletrodomésticos, conseguindo economizar R$ 50 por mês."
+
+Cliente 4:
+
+Imagem: Foto de um relatório gerado pela plataforma.
+
+Descrição: "Cliente: [Nome do Cliente] - Recebeu um relatório personalizado, que ajudou a melhorar sua eficiência energética em toda a casa."
+
+---------------------------------------------------
+
+6. Feedback:
+
+Texto de introdução ao feedback: "Queremos saber sua opinião! Compartilhe sua experiência com nossa ferramenta e ajude-nos a melhorar ainda mais."
+
+Campos para feedback:
+
+Nome: "Digite seu nome."
+
+Comentário: "Deixe seu comentário ou sugestão sobre o uso da nossa ferramenta."
+
+Nota de Satisfação: "Classifique sua experiência de 1 a 5 estrelas."
+
+Imagem (opcional): "Envie uma captura de tela de seus resultados de consumo ou economia."
+
+--------------------------------------------------
+
+7. Rodapé (Footer):
+
+Texto:
+
+"© 2025 Eco Vision. Todos os direitos reservados."
+
+Links:
+
+Sobre nós: Link para uma página com informações sobre a missão do site.
+
+Política de Privacidade: Link para a política de privacidade.
+
+Termos de Serviço: Link para os termos de serviço.
+
+Contatos: Inclua uma forma de contato (email, WhatsApp, telefone).
+
+Redes sociais: Links para suas redes sociais (Facebook, Instagram, etc.).
