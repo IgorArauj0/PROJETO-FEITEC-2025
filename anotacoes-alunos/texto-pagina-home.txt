@@ -1,6 +1,14 @@
 1. Cabeçalho:
 
+<<<<<<< HEAD
 Título: "Projeto Feitec Web"
+=======
+<<<<<<< HEAD
+Título: "Projeto Feitec Web"
+=======
+Título: "Projeto Feitec"
+>>>>>>> ea5a3ddb0a8864a8b8ca56e23400655cc89d5863
+>>>>>>> f84440013108a118a5c6fc7468a8b5f4de2e285d
 
 Subtítulo: "Transforme o consumo de energia em economia"
 
@@ -14,7 +22,15 @@ Texto:
 
 "Olá! Eu sou [Seu Nome], e o meu objetivo é ajudar você a calcular e controlar o consumo de energia e água de seus aparelhos. Com isso, você pode reduzir custos e adotar hábitos mais sustentáveis."
 
+<<<<<<< HEAD
 Alternativa: "Bem-vindo ao Projeto Feitec Web! Aqui, você pode monitorar o consumo de seus aparelhos e otimizar sua utilização para economizar energia e água."
+=======
+<<<<<<< HEAD
+Alternativa: "Bem-vindo ao Projeto Feitec Web! Aqui, você pode monitorar o consumo de seus aparelhos e otimizar sua utilização para economizar energia e água."
+=======
+Alternativa: "Bem-vindo ao Projeto Feitec Aqui, você pode monitorar o consumo de seus aparelhos e otimizar sua utilização para economizar energia e água."
+>>>>>>> ea5a3ddb0a8864a8b8ca56e23400655cc89d5863
+>>>>>>> f84440013108a118a5c6fc7468a8b5f4de2e285d
 
 ---------------------------------------------------
 
@@ -108,7 +124,15 @@ Imagem (opcional): "Envie uma captura de tela de seus resultados de consumo ou e
 
 Texto:
 
+<<<<<<< HEAD
 "© 2025 Projeto Feitec Web. Todos os direitos reservados."
+=======
+<<<<<<< HEAD
+"© 2025 Projeto Feitec Web. Todos os direitos reservados."
+=======
+"© 2025 Projeto Feitec Todos os direitos reservados."
+>>>>>>> ea5a3ddb0a8864a8b8ca56e23400655cc89d5863
+>>>>>>> f84440013108a118a5c6fc7468a8b5f4de2e285d
 
 Links:
 
