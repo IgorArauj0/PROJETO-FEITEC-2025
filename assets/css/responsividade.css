@@ -20,14 +20,12 @@
     }
 
     .conteudo-sobre {
-        flex-direction: column-reverse;
-        height: auto;
-        gap: 3rem;
+        height: fit-content;
     }
 
     .left-sobre {
         width: 100%;
-        height: auto;
+        height: fit-content;
     }
 
     .right-sobre {
