@@ -485,6 +485,13 @@ a {
     gap: 3rem;
 }
 
+.textos-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
 .textos-sobre h1 {
     font-size: 3rem;
     font-family: var(--font-grande);
@@ -683,15 +690,16 @@ a {
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 }
 
-.titulo-servicos h1 {
+.headline-servicos h1 {
     color: var(--color-black);
     width: 50%;
     font-size: 8vw;
     font-weight: lighter;
     font-family: var(--font-grande);
+    text-align: center;
 }
 
 .descricao-servicos {
@@ -985,7 +993,7 @@ a {
 /*************** CONTATO *****/
 .contato {
     width: 100vw;
-    height: auto;
+    height: fit-content;
     display: flex;
     padding: 2rem 0rem 3rem 0rem;
     align-items: center;
@@ -1090,15 +1098,22 @@ a {
     font-size: 1.2rem;
 }
 
+.form input::-webkit-outer-spin-button,
+.form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .form textarea {
     width: 100%;
-    height: 50%;
+    height: 100%;
     border-radius: 30px;
     outline: none;
     border: 2px solid rgba(128, 128, 128, 0.5);
     font-family: var(--font-pequena);
     font-size: 1.2rem;
     padding: 1.5rem 1rem;
+    resize: none;
 }
 
 .btn {
@@ -1110,6 +1125,7 @@ a {
     border: 2px solid rgba(128, 128, 128, 0.5);
     outline: none;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .logo-contato {

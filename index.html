@@ -58,7 +58,6 @@
                     <a href="#inicio">INÍCIO</a>
                     <a href="#sobre">SOBRE</a>
                     <a href="#servicos">SERVIÇOS</a>
-                    <a href="#portfolio">PORTFOLIO</a>
                     <a href="#contato">CONTATO</a>
                 </nav>
             </div>
@@ -120,6 +119,7 @@
                         <div class="textos-sobre">
                             <h1>Bem-vindo ao Projeto Feitec Web!</h1>
                             <p>Aqui, você pode monitorar o consumo de seus aparelhos e otimizar sua utilização para economizar energia e água.</p>
+                            <p>Este projeto foi desenvolvido pelos alunos de Programação Web unindo conhecimentos passados pelo professor com a pratica de um projeto real e manipulado por múltiplas pessoas simultaneamente. </p>
                         </div>
                     </div>
                 </div>
@@ -166,9 +166,7 @@
         <section id="servicos" class="servicos">
             <div class="container-servicos">
                 <div class="headline-servicos" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="titulo-servicos">
                         <h1>Serviços</h1>
-                    </div>
                 </div>
                 <div class="servicos-cards">
                     <!--Serviço 1-->
@@ -239,15 +237,12 @@
                     <div class="formulario-contato">
                         <h2>Deixe seu Feedback</h2>
                         <p>Queremos saber sua opinião! Compartilhe sua experiência com nossa ferramenta e ajude-nos a melhorar ainda mais.</p>
-
-                        <p>Sua opinião é fundamental para nós! Acreditamos que o EcoVision pode se tornar uma ferramenta
-                            ainda mais eficiente com a sua ajuda. Por favor, dedique um momento para nos dar seu
-                            feedback.</p>
                         <form class="form">
-                            <input type="text" placeholder="Digite seu nome completo">
-                            <input type="email" placeholder="Seu melhor email">
+                            <input type="text" placeholder="Digite seu nome completo" required>
+                            <input type="email" placeholder="Seu email" required>
+                            <input type="number" placeholder="Qual sua idade?" required>
                             <textarea name="mensagem" id="mensagem"
-                                placeholder="Escreva o que você deseja aqui..."></textarea>
+                                placeholder="Escreva o que você deseja aqui..." required></textarea>
                             <button class="btn">Enviar</button>
                         </form>
                     </div>
