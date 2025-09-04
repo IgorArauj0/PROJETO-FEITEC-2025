@@ -6,3 +6,7 @@
 .card-servicos-add-auluno p {
     text-align: center;
 }
+
+.box-skills:hover {
+    box-shadow: 1px 1px 10px var(--color-destaque2);
+}
