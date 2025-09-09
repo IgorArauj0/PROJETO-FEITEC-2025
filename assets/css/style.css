@@ -995,7 +995,7 @@ a {
     width: 100vw;
     height: fit-content;
     display: flex;
-    padding: 2rem 0rem 3rem 0rem;
+    padding: 2rem;
     align-items: center;
     justify-content: center;
     background-color: var(--color-white);
@@ -1003,11 +1003,12 @@ a {
 
 .container-contato {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     max-width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .headline-contato {
@@ -1087,10 +1088,10 @@ a {
     gap: 1rem;
 }
 
-.form input {
+.form-nome , .form-email, .form-idade, .form textarea{
     font-family: var(--font-pequena);
     width: 100%;
-    height: 30px;
+    height: 1rem;
     border-radius: 30px;
     outline: none;
     border: 2px solid rgba(128, 128, 128, 0.5);
@@ -1116,15 +1117,22 @@ a {
     resize: none;
 }
 
+.form-nome , .form-email, .form-idade{
+    height: 1rem;
+}
+
 .btn {
     background-color: var(--color-destaque1);
     color: var(--color-black);
     font-weight: bold;
-    width: 190px;
-    padding: 1rem 0rem;
+    width: 100%;
+    padding: 0.5rem 0rem;
     border: 2px solid rgba(128, 128, 128, 0.5);
     outline: none;
     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-contato {
