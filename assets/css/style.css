@@ -263,6 +263,11 @@ a {
     padding: 0rem 1rem;
     z-index: 1;
     user-select: none;
+    background: linear-gradient(180deg, #00000064 5.33%, rgba(5, 39, 101, 0.745) 70%), url(../icones/programador_web_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .container-inicio {
@@ -1189,7 +1194,7 @@ a {
 }
 
 .logo-column img {
-    width: 100px;
+    width: 200px;
 }
 
 .menu-column {

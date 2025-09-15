@@ -52,7 +52,7 @@ function renderCatalogo() {
   sel.innerHTML = '';
   const optDefault = document.createElement('option');
   optDefault.value = '';
-  optDefault.textContent = '— selecione —';
+  optDefault.textContent = '— selecione um item—';
   sel.appendChild(optDefault);
   CATALOGO.forEach(c => {
     const op = document.createElement('option');
