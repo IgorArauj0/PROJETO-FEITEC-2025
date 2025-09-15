@@ -482,18 +482,20 @@ a {
 .left-sobre {
     color: var(--color-white);
     height: 100%;
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     gap: 3rem;
+    padding: 0 150px;
 }
 
 .textos-sobre {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 1.5rem;
 }
 
