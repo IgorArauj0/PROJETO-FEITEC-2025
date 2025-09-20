@@ -8,13 +8,13 @@ body {
     padding: 0;
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
     
-    background: linear-gradient(180deg, rgba(26, 25, 25, 0.387) 10%, rgb(3, 72, 50)) 70%;
+    background: linear-gradient(90deg, rgb(17, 17, 17), rgb(57, 109, 88));
     
 }
 
 header {
    
-    background: linear-gradient(90deg, rgb(17, 17, 17), rgb(1, 46, 28));
+    background: linear-gradient(90deg, rgb(17, 17, 17), rgb(57, 109, 88));
     color: #fff;
     padding: 18px 0;
     margin: 0 0 18px 0
